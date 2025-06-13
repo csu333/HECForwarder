@@ -6,7 +6,7 @@ This script was created by Claude Sonnet 4
 ## Usage:
 
 ### Install dependencies:
-`bashpip install flask requests`
+`pip install flask requests`
 
 ### Configure by editing `hec_config.json`:
 ```json
