@@ -1,7 +1,7 @@
 # HECForwarder
 Splunk HTTP Event Collector Forwarder
 
-This script was created by Claude Sonnet 4
+This script was created by Claude Sonnet 4: https://claude.ai/public/artifacts/34e42bfd-0cd9-4d71-8b05-06e18555b79a
 
 ## Usage
 
