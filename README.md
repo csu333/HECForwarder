@@ -25,7 +25,7 @@ This script was created by Claude Sonnet 4
 ```
 
 ### Run the collector:
-`bashpython hec_emulator.py`
+`python hec_emulator.py`
 
 Send events to `http://localhost:8088/services/collector/event with proper authorization headers`
 
