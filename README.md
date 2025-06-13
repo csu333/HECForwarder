@@ -3,7 +3,7 @@ Splunk HTTP Event Collector Forwarder
 
 This script was created by Claude Sonnet 4
 
-## Usage:
+## Usage
 
 ### Install dependencies:
 `pip install flask requests`
@@ -29,9 +29,9 @@ This script was created by Claude Sonnet 4
 
 Send events to `http://localhost:8088/services/collector/event with proper authorization headers`
 
-### Monitoring:
+## Monitoring
 
-Health check: `GET /services/collector/health`
-Statistics: `GET /services/collector/stats`
+* Health check: `GET /services/collector/health`
+* Statistics: `GET /services/collector/stats`
 
 The system ensures no data loss by persisting all events to disk before acknowledging receipt, and continuously attempts to forward them to available Splunk indexers.
